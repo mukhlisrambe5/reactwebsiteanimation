@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     --neutral-light: #F2F6FF;
     --lavender-secondary: #6A6D9E;
     --dark-primary: #16194F;
-    --border-colour: #CAB6F1;
+    --border-colour: #CAD6F1;
   }
   * {
     margin: 0;
@@ -24,6 +24,14 @@ const GlobalStyle = createGlobalStyle`
   }
   a{
     color:inherit;
+  }
+  p{
+    color: var(--lavender-secondary);
+    line-height: 1.9rem;
+  }
+  .secondary-heading{
+    font-size: 3rem;
+    color: var(--purple-primary);
   }
   `;
   
