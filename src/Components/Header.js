@@ -21,7 +21,7 @@ background-repeat: no-repeat;
 background-size: cover;
 background-position-y: 100%;
 .header-content{
-    padding: 0 10rem;
+    padding: 0 18rem;
 }
 `;
 export default Header 
