@@ -18,7 +18,7 @@ function HeaderContent() {
                 </div>
             </div>
             <div className='right-content'>
-                <img src={phone} alt="" />
+                <img src={phone} alt="" className='phone'/>
                 <img src={ring1} alt="" className='ring1' />
                 <img src={message1} alt="" className='message1' />
                 <img src={message2} alt="" className='message2' />
@@ -32,6 +32,9 @@ const HeaderContentStyled = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top:3rem;
+    @media screen and (max-width:700px){
+        grid-template-columns: repeat(1, 1fr);
+    }
     .left-content{
         display: flex;
         align-items: center;
@@ -39,6 +42,9 @@ const HeaderContentStyled = styled.div`
         h1{
             font-size: 4rem;
             font-weight: 600;
+            @media screen and (max-width:700px){
+                font-size: 3rem;
+            }
         }
         .white{
             padding:1.4rem 0;
@@ -50,6 +56,7 @@ const HeaderContentStyled = styled.div`
         position:relative;
         display:flex;
         justify-content: center;
+        
         .phone{
             width: 100%;
         }
