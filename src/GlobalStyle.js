@@ -33,6 +33,14 @@ const GlobalStyle = createGlobalStyle`
     font-size: 3rem;
     color: var(--purple-primary);
   }
+  .small-heading{
+    font-size: 2rem;
+    color: var(--purple-primary);
+    text-align: center;
+  }
+  span{
+    color: var(--accent-pink);
+  }
   `;
   
 export default GlobalStyle;
