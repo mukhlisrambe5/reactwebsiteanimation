@@ -5,6 +5,8 @@ import { OuterLayout } from "./styles/Layout";
 import ChartSection from "./Components/ChartSection";
 import MessagingSection from "./Components/MessagingSection";
 import PaymentSection from "./Components/PaymentSection";
+import FAQSection from "./Components/FAQSection";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div className="App">
@@ -15,8 +17,10 @@ function App() {
         <ChartSection />
         <MessagingSection/>
         <PaymentSection />
+        <FAQSection/>
       </MainStyled>
      </OuterLayout>
+     <Footer/>
     </div>
   );
 }
